@@ -1,0 +1,85 @@
+	[wand.base]
+		#Range for base wand
+		# Default: 9
+		# Range: > 1
+		range = 9
+		#Maximum amount of blocks for base wand
+		# Default: 1024
+		# Range: > 1
+		blocks = 1024
+
+	[wand.advanced]
+		#Range for advanced wand
+		# Default: 25
+		# Range: > 1
+		range = 25
+		#Maximum amount of blocks for advanced wand
+		# Default: 4096
+		# Range: > 1
+		blocks = 4096
+
+	[wand.hybrid]
+		#Range for hybrid wand
+		# Default: 64
+		# Range: > 1
+		range = 64
+		#Maximum amount of blocks for hybrid wand
+		# Default: 8192
+		# Range: > 1
+		blocks = 8192
+
+	[wand.ultimate]
+		#Range for ultimate wand
+		# Default: 128
+		# Range: > 1
+		range = 128
+		#Maximum amount of blocks for ultimate wand
+		# Default: 16384
+		# Range: > 1
+		blocks = 16384
+
+	[ae_wand.base]
+		#Range for base AE wand
+		# Default: 9
+		# Range: > 1
+		range = 9
+		#AE storage bytes limit for base AE wand
+		# Default: 1024
+		# Range: 1 ~ 9223372036854775807
+		maxBytes = 1024
+
+	[ae_wand.advanced]
+		#Range for advanced AE wand
+		# Default: 25
+		# Range: > 1
+		range = 25
+		#AE storage bytes limit for advanced AE wand
+		# Default: 4096
+		# Range: 1 ~ 9223372036854775807
+		maxBytes = 4096
+
+	[ae_wand.hybrid]
+		#Range for hybrid AE wand
+		# Default: 64
+		# Range: > 1
+		range = 64
+		#AE storage bytes limit for hybrid AE wand
+		# Default: 16384
+		# Range: 1 ~ 9223372036854775807
+		maxBytes = 16384
+
+	[ae_wand.ultimate]
+		#Range for ultimate AE wand
+		# Default: 128
+		# Range: > 1
+		range = 128
+		#AE storage bytes limit for ultimate AE wand
+		# Default: 65536
+		# Range: 1 ~ 9223372036854775807
+		maxBytes = 65536
+
+[general]
+	#Blacklist of blocks/items in format modid:item or modid:item@meta
+	#Example: minecraft:dirt@0
+	#Example: minecraft:sand
+	blacklist = ["minecraft:dirt@0", "minecraft:sand"]
