@@ -1,0 +1,6 @@
+#Enable the schematic upload feature
+enabled = true
+#Automatically upload schematics when saved (if false, a confirmation screen is shown)
+autoUpload = true
+#Base URL for the createmod.com API
+baseUrl = "https://createmod.com"
